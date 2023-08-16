@@ -1286,7 +1286,7 @@ hr {
 /* ############################# About Us Page ############################ */
 /* background image */
 .bg-image-mn-1 {
-    background-image: url('../images/aboutus/meeting.jpeg');
+    background-image: url('../images/aboutus/aboutbg.jpeg');
     width: 100%;
     height: 100vh;
     object-fit: cover;
@@ -1305,8 +1305,13 @@ hr {
     right: 0;
     width: 100%;
     height: 100%;
-    background: rgba(0, 0, 0, 0.4);
+    background: rgba(0, 0, 0, 0.5);
     color: var(--color-3);
+}
+
+.ficon {
+    color: #fff;
+    font-size: 50px;
 }
 
 /* --------About Text-------- */
@@ -1652,7 +1657,7 @@ hr {
 
 /* background image */
 .bg-image-mn-3 {
-    background-image: url('../images/category/bggg.jpg');
+    background-image: url('../images/category/servicebg.jpeg');
     width: 100%;
     height: 100vh;
     object-fit: cover;
