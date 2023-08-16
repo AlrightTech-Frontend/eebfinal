@@ -669,6 +669,10 @@ a_tag a {
     position: relative;
 }
 
+
+
+
+
 .cleaning__care .cleaning__care__div__1::before {
     content: "";
     position: absolute;
@@ -680,6 +684,81 @@ a_tag a {
     /* Adjust the alpha value to control the darkness */
     z-index: 1;
 }
+
+
+
+.echosideimage {
+    /* background-image: url(../images/cleaning-care/clean4.jpg); */
+
+     background-image: linear-gradient(rgba(25, 30, 31, 0.9),  rgba(32, 39, 41, 0.2)), url(../images/cleaning-care/clean4.jpg);
+    height: 100vh;
+    
+    color: black !important;
+    object-fit: cover;
+    background-size: cover;
+    
+    background-repeat: no-repeat;
+    
+    position: relative;
+    
+        box-shadow: -1px 1px 12px #375559;
+}
+
+@media(max-width:768px)
+{
+    .echosideimage {
+    /* background-image: url(../images/cleaning-care/clean4.jpg); */
+
+     
+    height: 100%;
+    
+ 
+}
+}
+.sidebarimage{
+    width: 100%;
+    height: 80vh;
+}
+
+
+/* .echosideimage::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(17, 118, 158, 0.76);
+    /* Adjust the alpha value to control the darkness */
+    /* z-index: 1; */
+ 
+ */
+
+
+  .egosideimage{
+    /* background-image: url(../images/cleaning-care/clean5.jpeg) !important; */
+    
+    /* height: 100vh; */
+    /* position: absolute;
+    right: 0;
+    bottom: 0; */
+    /* width: 100% !important; */
+    /* height: 80vh !important; */
+    /* z-index: -2; */
+    /* object-fit: cover !important;
+    background-size: cover !important;
+    background-repeat: no-repeat !important; */
+}
+.egosideimage{
+    background-image: url(../images/cleaning-care//clean5.jpeg);
+     width: 100% !important;
+       /* height: 80vh !important; */
+       height: 100%;
+         object-fit: contain !important;
+         /* position: absolute; */
+     
+}
+
 
 .cleaning__care .cleaning__care__div__2 {
     background-image: url(../images/cleaning-care/clean5.jpeg);
@@ -696,6 +775,9 @@ a_tag a {
 
 .cleaning__care__div__1__content {
     margin-top: -35rem;
+    color: var(--color-4);
+}
+.cleaning_maincontant{
     color: var(--color-4);
 }
 
