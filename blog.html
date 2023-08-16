@@ -1,0 +1,583 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- css link -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- Font awesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>blog</title>
+</head>
+
+<body>
+    <!-- -------------------------- HEADER -------------------------- -->
+    <div class="container-fluid bg-image-mn  mb-5 p-0">
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg bg-body-tertiary nav__bar">
+            <div class="container-fluid">
+                <!-- Toggle Button -->
+                <button class="navbar-toggler navbar__toggler border border-2" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="">
+                        <!-- <svg class="navbar__toggler__svg" xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                    fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd"
+                                        d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z" />
+                                </svg> -->
+                        <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="-5 -7 24 24">
+                            <path fill="white"
+                                d="M1 0h5a1 1 0 1 1 0 2H1a1 1 0 1 1 0-2zm7 8h5a1 1 0 0 1 0 2H8a1 1 0 1 1 0-2zM1 4h12a1 1 0 0 1 0 2H1a1 1 0 1 1 0-2z" />
+                        </svg>
+                    </span>
+                </button>
+                <!-- Nav Items -->
+                <div class="collapse navbar-collapse pe-6" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto me-5 pt-0 pb-4 pe-6 mb-2 mb-lg-0 blog-list">
+                        <li class="nav-item mx-2 nav__item nav__item__border">
+                            <a class="nav-link nav__link text-uppercase fromcenter active" aria-current="page"
+                                href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item mx-2 nav__item nav__item__border">
+                            <a class="nav-link nav__link text-uppercase fromcenter" href="about.html">About Us</a>
+                        </li>
+                        <li class="nav-item mx-2 nav__item nav__item__border">
+                            <a class="nav-link nav__link text-uppercase fromcenter" href="services.html">Services</a>
+                        </li>
+                        <!-- <li class="nav-item mx-2 nav__item dropdown">
+                                            <a class="nav-link dropdown-toggle text-uppercase" href="#" role="button"
+                                                data-bs-toggle="dropdown" aria-expanded="false">
+                                                Services
+                                            </a>
+                                            <ul class="dropdown-menu dropdown_bg_clr">
+                                                <li><a class="dropdown-item text-uppercase" href="services.html">Action</a></li>
+                                                <li><a class="dropdown-item text-uppercase" href="#">Another action</a></li>
+                                                <li>
+                                                    <hr class="dropdown-divider" />
+                                                </li>
+                                                <li>
+                                                    <a class="dropdown-item text-uppercase" href="#">Something else here</a>
+                                                </li>
+                                            </ul>
+                                        </li> -->
+                        <li class="nav-item mx-2 nav__item nav__item__border">
+                            <a class="nav-link nav__link text-uppercase fromcenter" href="joinTeam.html">Join Our
+                                Team</a>
+                        </li>
+                        <li class="nav-item mx-2 nav__item nav__item__border">
+                            <a class="nav-link nav__link text-uppercase fromcenter" href="blog.html">Blogs</a>
+                        </li>
+                        <li class="nav-item mx-2 nav__item nav__item__border">
+                            <a class="nav-link nav__link text-uppercase fromcenter" href="contact.html">Contact Us</a>
+                        </li>
+
+                        <!-- Request A Quote Button -->
+                        <li class="nav-item mx-2 nav__item">
+                            <a href="get-a-qoute.html"><button class="btn header__button py-3 text-uppercase">Request a
+                                    Quote</button></a>
+                        </li>
+                    </ul>
+                </div>
+                <script>
+                    // Get references to the necessary elements
+                    const togglerButton = document.querySelector(".navbar-toggler");
+                    const navbar = document.querySelector(".nav__bar");
+                    const navItems = document.querySelector(".navbar-nav");
+
+                    // Add event listener to the toggler button
+                    togglerButton.addEventListener("click", () => {
+                        // Toggle background color of the navbar
+                        navbar.classList.toggle("navbar-bg-black");
+
+                        // Toggle the fade-in effect for the nav items
+                        navItems.classList.toggle("fade-up");
+                    });
+                </script>
+            </div>
+        </nav>
+
+        <!-- background image -->
+        <div class="img-overlay">
+            <div class="bg-image-text text-center">
+                <h1 class="">Blog</h1>
+                <p>Read the latest blog articles</p>
+            </div>
+        </div>
+    </div>
+    <!-- -------------------------- MAIN -------------------------- -->
+    <!-- icon home libry -->
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-sm-6">
+                <div class="icon-mn ">
+
+                    <nav aria-label="breadcrumb">
+                        <ol class="breadcrumb bread-text mt-3">
+                            <a href=""><i class="fa-regular fa-bars"></i></a>
+                            <!-- <i><img src="images/icon-2.png" alt=""></i> -->
+                            <li class="breadcrumb-item "><a href="#">Home</a></li>
+                            <li class="breadcrumb-item active" aria-current="page">Blog</li>
+                        </ol>
+                    </nav>
+
+                </div>
+            </div>
+            <div class="col-sm-6 blog-btn d-flex justify-content-center">
+                <a href=""><button class="btn" type="submit">Create new Blog</button></a>
+            </div>
+
+
+        </div>
+
+        <!-- cards -->
+        <div class="container mt-5">
+            <div class="row">
+                <div class="col-lg-8 mb-md-5">
+                    <div class="row child-row">
+                        <div class="col-md-6">
+                            <div class="card card-mn card border-0">
+                                <img src="images/blog-images/blog1.jpg" class="card-img-top" alt="...">
+                                <div class="card-body card-body-text">
+                                    <h5 class="card-title">Water Cleaning Services</h5>
+                                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                    <p class="card-text">Water cleaning services refer to professional services that
+                                        focus on
+                                        the purification, treatment, and remediation of water sources. These services
+                                        are
+                                        essential for maintaining clean and safe water fo..</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6 card2-mn">
+                            <div class="card card-mn card border-0">
+                                <img src="images/blog-images/blog2.jpg" class="card-img-top" alt="...">
+                                <div class="card-body card-body-text">
+                                    <h5 class="card-title">What is the best way to remove hard water stains from glass
+                                        shower
+                                        doors?</h5>
+                                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                    <p class="card-text">Vinegar and Water Solution:Mix equal parts white vinegar and
+                                        water in a
+                                        spray bottle.Spray the solution onto the glass shower doors, ensuring the stains
+                                        are
+                                        well-covered.Let the solution sit for sever...</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6 mt-5">
+                            <div class="card card-mn card border-0">
+                                <img src="images/blog-images/blog3.jpg" class="card-img-top" alt="...">
+                                <div class="card-body card-body-text">
+                                    <h5 class="card-title">Crime Scene Cleaning</h5>
+                                    <p class="card-text"><small class="text-muted">By Admin• 3 weeks ago •
+                                            Uncategorized</small>
+                                    </p>
+                                    <p class="card-text">Crime scene cleaning is a specialized service that involves the
+                                        thorough cleaning, sanitization, and restoration of areas affected by traumatic
+                                        events,
+                                        crime scenes, accidents, or other biohazardous i...</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6 mt-5">
+                            <div class="card card-mn card border-0">
+                                <img src="images/blog-images/blog4.jpg" class="card-img-top" alt="...">
+                                <div class="card-body card-body-text">
+                                    <h5 class="card-title">
+                                        Irrigation System Installation and Maintenance</h5>
+                                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                    <p class="card-text">An irrigation system is essential for maintaining a healthy
+                                        landscape.
+                                        Irrigation services can design and install a system tailored to your property's
+                                        needs,
+                                        ensuring proper water distribution to you...</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6 mt-5">
+                            <div class="card card-mn card border-0">
+                                <img src="images/blog-images/blog5.jpg" class="card-img-top" alt="...">
+                                <div class="card-body card-body-text">
+                                    <h5 class="card-title">
+                                        Cleaning and Sanitizing</h5>
+                                    <p class="card-text"><small class="text-muted">By Admin• 3 weeks ago •
+                                            Uncategorized</small>
+                                    </p>
+                                    <p class="card-text">Cleaning refers to the removal of dirt, dust, debris, and
+                                        other visible contaminants from surfaces. It is typically done using water,
+                                        detergents,
+                                        and cleaning tools such as mops, brushes, and...</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6 mt-5">
+                            <div class="card card-mn card border-0">
+                                <img src="images/blog-images/blog6.jpg" class="card-img-top" alt="...">
+                                <div class="card-body card-body-text">
+                                    <h5 class="card-title">
+                                        How to remove yard waste?</h5>
+                                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                    <p class="card-text">Yard waste removal services specialize in the collection and
+                                        disposal
+                                        of organic materials generated from landscaping and yard maintenance. These
+                                        services are
+                                        particularly helpful when you have accumu...</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6 mt-5">
+                            <div class="card card-mn card border-0">
+                                <img src="images/blog-images/blog7.jpg" class="card-img-top" alt="...">
+                                <div class="card-body card-body-text">
+                                    <h5 class="card-title">
+                                        Hoarding Cleanup</h5>
+                                    <p class="card-text"><small class="text-muted">By Admin• 3 weeks ago •
+                                            Uncategorized</small>
+                                    </p>
+                                    <p class="card-text">Hoarding cleanup is a specialized cleaning service that focuses
+                                        on
+                                        helping individuals with hoarding disorders declutter and organize their living
+                                        spaces.
+                                        Hoarding is a complex mental health condition...</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6 mt-5">
+                            <div class="card card-mn card border-0">
+                                <img src="images/blog-images/blog8.jpg" class="card-img-top" alt="...">
+                                <div class="card-body card-body-text">
+                                    <h5 class="card-title">
+                                        What are some tips for removing stubborn rust stains from metal surfaces?</h5>
+                                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                    <p class="card-text">Removing stubborn rust stains from metal surfaces can be
+                                        challenging,
+                                        but here are some tips that can help:1. Gather the Necessary Materials Vinegar
+                                        and
+                                        Baking Soda: Create a paste by mixing vinegar a...</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6 mt-5">
+                            <div class="card card-mn card border-0">
+                                <img src="images/blog-images/blog9.jpg" class="card-img-top" alt="...">
+                                <div class="card-body card-body-text">
+                                    <h5 class="card-title">
+                                        Crystal Clear Deep Cleaning</h5>
+                                    <p class="card-text"><small class="text-muted">By Admin• 3 weeks ago •
+                                            Uncategorized</small>
+                                    </p>
+                                    <p class="card-text">"Crystal Clear Deep Cleaning" is a name that evokes a sense of
+                                        clarity,
+                                        transparency, and thoroughness in providing deep cleaning services. Here's a
+                                        breakdown
+                                        of what the name implies:"Crystal Clear":...</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6 mt-5">
+                            <div class="card card-mn card border-0">
+                                <img src="images/blog-images/blog10.jpg" class="card-img-top" alt="...">
+                                <div class="card-body card-body-text">
+                                    <h5 class="card-title">
+                                        Spotless Office Cleaning Solutions</h5>
+                                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                    <p class="card-text">"Spotless Office Cleaning Solutions" is a name that suggests a
+                                        cleaning
+                                        service company specializing in providing impeccable and thorough cleaning
+                                        solutions for
+                                        offices. Here's a breakdown of what the...</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6 mt-5">
+                            <div class="card card-mn card border-0">
+                                <img src="images/blog-images/blog11.jpg" class="card-img-top" alt="...">
+                                <div class="card-body card-body-text">
+                                    <h5 class="card-title">Maid to Perfection</h5>
+                                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                    <p class="card-text">Company dedicated to delivering impeccable and flawless maid
+                                        services.
+                                        Here's a breakdown of what the name implies:"Maid": The term "maid" typically
+                                        refers to
+                                        a domestic worker responsible for perform...</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6 mt-5">
+                            <div class="card card-mn card border-0">
+                                <img src="images/blog-images/blog12.jpg" class="card-img-top" alt="...">
+                                <div class="card-body card-body-text">
+                                    <h5 class="card-title">What cleaning products or methods do you recommend for
+                                        removing
+                                        grease from kitchen surfaces?</h5>
+                                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                    <p class="card-text"> Degreasing Agents and Cleaning Products When dealing with
+                                        grease
+                                        buildup in the kitchen, using the right cleaning products is essential. Look for
+                                        degreasing agents and cleaners specifically designe...</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6 mt-5">
+                            <div class="card card-mn card border-0">
+                                <img src="images/blog-images/blog13.jpg" class="card-img-top" alt="...">
+                                <div class="card-body card-body-text">
+                                    <h5 class="card-title">A1 Cleaning</h5>
+                                    <p class="card-text"><small class="text-muted">By Admin• 3 weeks ago •
+                                            Uncategorized</small>
+                                    </p>
+                                    <p class="card-text">"A1 Cleaning conveys a sense of excellence and comprehensive
+                                        cleaning services. Here's a breakdown of what the name implies:"A1": The term
+                                        "A1" is often associated with being the highest or top level...</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6 mt-5">
+                            <div class="card card-mn card border-0">
+                                <img src="images/blog-images/blog14.jpg" class="card-img-top" alt="...">
+                                <div class="card-body card-body-text">
+                                    <h5 class="card-title">The Clean Machine Maid Services</h5>
+                                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                    <p class="card-text">"The Clean Machine Maid Services" is a name that suggests a
+                                        professional cleaning company specializing in maid services. Here's a brief
+                                        explanation of what the name implies:"The Clean Machine": This p...</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6 mt-5">
+                            <div class="card card-mn card border-0">
+                                <img src="images/blog-images/blog15.jpg" class="card-img-top" alt="...">
+                                <div class="card-body card-body-text">
+                                    <h5 class="card-title">
+                                        What are the best techniques for removing tough stains from carpets?</h5>
+                                    <p class="card-text"><small class="text-muted">By Admin• 3 weeks ago •
+                                            Uncategorized</small>
+                                    </p>
+                                    <p class="card-text">Removing tough stains from carpets can be a bit challenging,
+                                        but here are some effective techniques you can try:Act quickly: The sooner you
+                                        address a stain, the better chance you have of removing it c...</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6 mt-5">
+                            <div class="card card-mn card border-0">
+                                <img src="images/blog-images/blog16.jpg" class="card-img-top" alt="...">
+                                <div class="card-body card-body-text">
+                                    <h5 class="card-title">
+                                        How do safely and efficiently remove pet hair from furniture and upholstery?
+                                    </h5>
+                                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                    <p class="card-text">To safely and efficiently remove pet hair from furniture and
+                                        upholstery, you can try the following methods:1.Use a lint roller: Lint rollers
+                                        are effective tools for removing pet hair from fabric surfa...</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6 mt-5">
+                            <div class="card card-mn card border-0">
+                                <img src="images/blog-images/blog17.jpg" class="card-img-top" alt="...">
+                                <div class="card-body card-body-text">
+                                    <h5 class="card-title">Perfectly Polished Housekeeping Services
+                                    </h5>
+                                    <p class="card-text"><small class="text-muted">By Admin• 3 weeks ago •
+                                            Uncategorized</small>
+                                    </p>
+                                    <p class="card-text">Perfectly Polished Housekeeping Services suggests a focus on
+                                        delivering high-quality housekeeping services with meticulous attention to
+                                        detail. Here's a brief explanation of what the name implies:"Per...</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6 mt-5">
+                            <div class="card card-mn card border-0">
+                                <img src="images/blog-images/blog18.jpg" class="card-img-top" alt="...">
+                                <div class="card-body card-body-text">
+                                    <h5 class="card-title">
+                                        True Shine Surface Restoration</h5>
+                                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                    <p class="card-text">Surface Restoration and Maintenance Experts we offer a
+                                        comprehensive range of services designed to restore, enhance, and maintain the
+                                        beauty of your surfaces. Our team of skilled technicians is dedica...</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6 mt-5">
+                            <div class="card card-mn card border-0">
+                                <img src="images/blog-images/blog19.jpg" class="card-img-top" alt="...">
+                                <div class="card-body card-body-text">
+                                    <h5 class="card-title">
+                                        Dust Busters Commercial And Residential Cleaning Services</h5>
+                                    <p class="card-text"><small class="text-muted">By Admin• 3 weeks ago •
+                                            Uncategorized</small>
+                                    </p>
+                                    <p class="card-text"> Residential Cleaning ServicesOur residential cleaning services
+                                        are designed to keep your home in pristine condition, allowing you to relax and
+                                        enjoy a clean living space.Regular House Cleaning: We...</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6 mt-5">
+                            <div class="card card-mn card border-0">
+                                <img src="images/blog-images/blog20.jpg" class="card-img-top" alt="...">
+                                <div class="card-body card-body-text">
+                                    <h5 class="card-title">
+                                        Cleaning Services</h5>
+                                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                    <p class="card-text">The Benefits of Hiring a Cleaning Service:In today's busy
+                                        world, it can be difficult to find the time to keep our homes and businesses
+                                        clean. This is where hiring a cleaning service can be a huge help...</p>
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+
+
+                <div class="col-lg-4 article-mn">
+                    <div class="card card-mn card border-0 card-mn1">
+                        <div class="card-body card-body-text">
+                            <h5 class="card-title">Popular Articles</h5>
+                            <p class="card-text ">
+                            <ul class="list-unstyled card-text-mn">
+                                <li class="mb-2"><a href="">Water Cleaning Services</a></li>
+                                <li class="mb-2"><a href="">What is the best way to remove hard water stains from glass
+                                        shower doors?</a></li>
+                                <li class="mb-2"><a href="">Crime Scene Cleaning</a></li>
+                                <li class="mb-2"><a href="">Irrigation System Installation and Maintenance</a></li>
+                                <li class="mb-2"><a href="">Cleaning and Sanitizing</a></li>
+                            </ul>
+                            </p>
+                            <!-- tags -->
+                            <h3 class="h5">Tags</h3>
+                            <ul class="list-unstyled list-tag">
+                                <a href=""><button class="btn text-white" type="submit">as</button></a>
+                                <a href=""><button class="btn text-white" type="submit">Home Cleaning </button></a>
+                                <a href=""><button class="btn text-white" type="submit">Home Services</button></a>
+                            </ul>
+                        </div>
+
+
+                    </div>
+                </div>
+                <!-- -------------------------- FOOTER -------------------------- -->
+
+                <div class="footer__bg">
+                    <div class="container">
+                        <div class="row pt-5">
+                            <!-- col -->
+                            <div class="col-lg-4 col-md-12 col-sm-12 mb-lg-4 mb-sm-5 mb-5">
+                                <div class="footer__col">
+                                    <h6 class="mb-3">About</h6>
+                                    <p class=" mb-xl-5 mb-3">
+                                        EEB Cleaning Services aim to establish trust among homeowners and professionals.
+                                        As a result
+                                        of our assistance, people
+                                        are able to take care of their homes from top to bottom - as well as a wide
+                                        range of small
+                                        businesses are encouraged to
+                                        grow.
+                                    </p>
+                                    <a class="website__logo" href="#"><img src="images/index-bn-1/Logo Transparency.png"
+                                            alt=""></a>
+                                </div>
+                            </div>
+                            <!-- col -->
+                            <div class="col-lg-1"></div>
+                            <!-- col -->
+                            <div class="col-lg-3 col-md-6 col-sm-12 mb-5">
+                                <div class="footer__col">
+                                    <h6 class="mb-3">Services</h6>
+                                    <div class="footer__col__img mb-5">
+                                        <img src="images/footer/Group 69.png" alt="" />
+                                    </div>
+                                    <a class="footer__button py-3 px-3" href="get-a-qoute.html">GET A QUOTE</a>
+                                </div>
+                            </div>
+                            <!-- col -->
+                            <div class="col-lg-1"></div>
+                            <!-- col -->
+                            <div class="col-lg-3 col-md-6 col-sm-12 mb-5">
+                                <div class="footer__col3">
+                                    <h6 class="mb-3">Company</h6>
+                                    <ul class="mb-4">
+                                        <li><a class="footer__col__a" href="index.html">Home</a></li>
+                                        <li><a href="about.html">About Us</a></li>
+                                        <li><a href="services.html">Services</a></li>
+                                        <li><a href="jointeam.html">Join Our Team</a></li>
+                                        <li><a href="blog.html">Blogs</a></li>
+                                        <li><a href="contact.html">Contact Us</a></li>
+                                        <li><a href="get-a-qoute.html">Get a Quote</a></li>
+                                    </ul>
+                                    <div class="footer__social">
+                                        <a href="https://www.facebook.com/thatshines2018/"><i
+                                                class="fa-brands fa-facebook-f"></i></a>
+                                        <a href="https://www.instagram.com/eebcleaningservices/?hl=en"><i
+                                                class="fa-brands fa-twitter"></i></a>
+                                        <a href="https://www.yelp.com/biz/eeb-cleaning-services-baldwin"><i
+                                                class="fa-brands fa-yelp"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <hr />
+                        <!-- row 2 -->
+                        <div class="row d-flex justify-content-center">
+                            <div class="col-lg-8 col-12">
+                                <div class="footer__row__2">
+                                    <ul>
+                                        <li>
+                                            <p>Copyright 1978 - 2023</p>
+                                        </li>
+                                        <div class=" d-none d-sm-block">|</div>
+                                        <li>
+                                            <a href="#">EEB Cleaning Services</a>
+                                        </li>
+                                        <div class=" d-none d-sm-block">|</div>
+                                        <li>
+                                            <p>All Right Reserved</p>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- -------------------------- SCRIPTS -------------------------- -->
+
+                <!-- Option 1: Bootstrap Bundle with Popper -->
+                <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+                    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+                    crossorigin="anonymous"></script>
+                <script src="js/script.js"></script>
+</body>
+
+</html>

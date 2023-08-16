@@ -1,0 +1,618 @@
+/* ############################# Home Page ############################ */
+@media (min-width: 992px) and (max-width: 1200px) {
+
+    /* Navbar */
+
+    .nav__item a {
+        letter-spacing: 0em;
+    }
+
+    /* Positioned Search Container of Banner 1 */
+
+    .search__container {
+        width: 77%;
+        margin-top: 2rem;
+    }
+
+    .search__button {
+        right: 4%;
+    }
+
+    /* Banner 5 Cleaning with Care and Eco-Friendly Products Conunter*/
+
+    .available_div {
+        width: 75%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+
+    /* Navbar */
+
+    .nav__item a {
+        margin-top: 1rem;
+    }
+
+    .header__button {
+        margin-top: 1.5rem;
+    }
+
+    .pe-6 {
+        margin-right: 0;
+    }
+
+    .nav__item__border {
+        display: flex;
+        align-items: flex-start;
+    }
+
+    /* Positioned Search Container of Banner 1 */
+
+    .search__container {
+        width: 70%;
+        margin-top: 2rem;
+    }
+
+    .search__button {
+        right: 41%;
+        bottom: -60px;
+    }
+
+    .location__input {
+        margin-right: 0;
+    }
+
+    /* Background Image 1 */
+    .contact__bg__img {
+        top: -499px;
+    }
+
+    /* Banner 5 Cleaning with Care and Eco-Friendly Products Conunter*/
+
+    .available_div {
+        width: 46%;
+    }
+
+    .cleaning__care .cleaning__care__div__2 {
+        display: none;
+    }
+
+    .cleaning__care .cleaning__care__div__1 {
+        width: 100%;
+    }
+
+    .cleaning__care__div__1__content {
+        margin-top: -34rem;
+        color: var(--color-4);
+    }
+
+    .sectionClass {
+        margin-top: -13rem;
+    }
+
+    .cleaning__care {
+        margin-top: 4rem;
+    }
+
+    /* .blog-list {
+        background-color: #000;
+        width: 100%;
+    } */
+}
+
+@media (min-width: 525px) and (max-width: 786px) {
+
+    /* Navbar */
+
+    .nav__item a {
+        margin-top: 1rem;
+    }
+
+    .header__button {
+        margin-top: 1.5rem;
+    }
+
+    .pe-6 {
+        margin-right: 0;
+    }
+
+    .nav__item__border {
+        display: flex;
+        align-items: flex-start;
+    }
+
+    /* Positioned Search Container of Banner 1 */
+
+    .search__container {
+        width: 70%;
+        display: flex;
+        margin-top: 2rem;
+        flex-direction: column;
+    }
+
+    .search__input {
+        width: 100%;
+        border-radius: 20px;
+    }
+
+    .location__input {
+        width: 100%;
+        margin-top: 2rem;
+        border-radius: 20px;
+    }
+
+    .location__icon {
+        left: 9%;
+        bottom: 23px;
+    }
+
+    .search__button {
+        right: 38%;
+        bottom: -60px;
+    }
+
+    .location__input {
+        margin-right: 0;
+    }
+
+    /* Banner 5 Contact Us */
+
+    .communicat_with_us {
+        display: flex;
+        flex-direction: column;
+    }
+
+    /* Background Image 1 */
+    .contact__bg__img {
+        top: -499px;
+    }
+
+    /* Banner 5 Cleaning with Care and Eco-Friendly Products Conunter*/
+
+    .available_div {
+        width: 60%;
+    }
+
+    .cleaning__care .cleaning__care__div__2 {
+        display: none;
+    }
+
+    .cleaning__care .cleaning__care__div__1 {
+        width: 100%;
+    }
+
+    .sectionClass {
+        backdrop-filter: blur(0px);
+        margin-top: 0;
+        box-shadow: none;
+    }
+
+    .cleaning__care__div__1__content {
+        margin-top: -30rem;
+    }
+
+    .cleaning__care {
+        margin-top: 3rem;
+    }
+}
+
+@media (min-width: 425px) and (max-width: 525px) {
+
+    /* Navbar */
+
+    .nav__item a {
+        margin-top: 1rem;
+    }
+
+    .header__button {
+        margin-top: 1.5rem;
+    }
+
+    .pe-6 {
+        margin-right: 0;
+    }
+
+    .nav__item__border {
+        display: flex;
+        align-items: flex-start;
+    }
+
+    /* Positioned Search Container of Banner 1 */
+
+    .search__container {
+        width: 94%;
+        display: flex;
+        margin-top: 2rem;
+        flex-direction: column;
+    }
+
+    .search__input {
+        width: 100%;
+        border-radius: 20px;
+    }
+
+    .location__input {
+        width: 100%;
+        margin-top: 2rem;
+        border-radius: 20px;
+    }
+
+    .location__icon {
+        left: 9%;
+        bottom: 23px;
+    }
+
+    .search__button {
+        right: 27%;
+        bottom: -60px;
+    }
+
+    .location__input {
+        margin-right: 0;
+    }
+
+    /* Banner 5 Contact Us */
+
+    .communicat_with_us {
+        display: flex;
+        flex-direction: column;
+    }
+
+    /* Background Image 1 */
+
+    .contact__bg__img {
+        top: -499px;
+    }
+
+    /* Banner 5 Cleaning with Care and Eco-Friendly Products Conunter*/
+
+    .available_div {
+        width: 80%;
+    }
+
+    .cleaning__care .cleaning__care__div__2 {
+        display: none;
+    }
+
+    .cleaning__care .cleaning__care__div__1 {
+        width: 100%;
+    }
+
+    .sectionClass {
+        backdrop-filter: blur(0px);
+        margin-top: 0;
+        box-shadow: none;
+    }
+
+    .cleaning__care {
+        margin-top: 3rem;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 425px) {
+
+    /* Navbar */
+
+    .nav__item a {
+        margin-top: 1rem;
+    }
+
+    .header__button {
+        margin-top: 1.5rem;
+    }
+
+    .pe-6 {
+        margin-right: 0;
+    }
+
+    .nav__item__border {
+        display: flex;
+        align-items: flex-start;
+    }
+
+    .nav__bar {
+        /* width: 100%; */
+    }
+
+    /* Background Image 1 */
+
+    .index__bg__img {
+        top: -50px;
+    }
+
+    /* Positioned Search Container of Banner 1 */
+
+    .search__container {
+        width: 94%;
+        display: flex;
+        margin-top: 2rem;
+        flex-direction: column;
+    }
+
+    .search__input {
+        width: 100%;
+        border-radius: 20px;
+    }
+
+    .location__input {
+        width: 100%;
+        margin-top: 2rem;
+        border-radius: 20px;
+    }
+
+    .location__icon {
+        left: 9%;
+        bottom: 23px;
+    }
+
+    .search__button {
+        right: 27%;
+        bottom: -60px;
+    }
+
+    .location__input {
+        margin-right: 0;
+    }
+
+    /* Banner 5 Contact Us */
+
+    .communicat_with_us {
+        display: flex;
+        flex-direction: column;
+    }
+
+    /* Background Image 1 */
+    .contact__bg__img {
+        top: -499px;
+    }
+
+    /* Banner 5 Cleaning with Care and Eco-Friendly Products Conunter*/
+
+    .available_div {
+        width: 100%;
+    }
+
+    .cleaning__care .cleaning__care__div__2 {
+        display: none;
+    }
+
+    .cleaning__care .cleaning__care__div__1 {
+        width: 100%;
+    }
+
+    .sectionClass {
+        backdrop-filter: blur(0px);
+        margin-top: 0;
+        box-shadow: none;
+    }
+
+    .cleaning__care {
+        margin-top: 3rem;
+    }
+}
+
+/* ----Footer-- */
+@media (min-width: 320px) and (max-width: 515px) {
+    .vr {
+        display: none;
+    }
+
+    .footer__row__2 ul {
+        color: var(--color-2);
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer__row__2 {
+        justify-content: left;
+    }
+
+    .footer__row__2 ul li p {
+        margin-top: 12px !important;
+    }
+
+    .index__bg__img {
+        top: -140px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+
+    /* Navbar */
+
+    .header__button {
+        position: relative;
+        white-space: nowrap;
+    }
+
+    /* Banner 5 Contact Us */
+
+    .aImg {
+        width: 100%;
+    }
+}
+
+/* ############################# Blog Page ############################ */
+@media screen and (max-width: 768px) {
+    .article-mn {
+        padding-top: 3rem;
+    }
+
+}
+
+@media screen and (max-width: 425px) {
+    .icon-mn {
+        display: flex;
+        justify-content: center;
+    }
+
+    .blog-btn {
+        display: flex;
+        justify-content: center !important;
+    }
+
+    .card2-mn {
+        padding-top: 3rem;
+    }
+}
+
+/* ############################# About Us Page ############################ */
+/* --------About Text-------- */
+@media screen and (max-width:320px) {
+
+    .aboutText {
+        font-size: 32px;
+    }
+
+}
+
+/* -------Contact Us-------- */
+@media (min-width: 1200px) {
+    .col-xl-5 {
+        flex: 0 0 auto;
+        width: 41.66666667%;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 576px) {
+    .card___inner {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+/* ------Frequenttly Asked Questions--- */
+@media (max-width: 320px) {
+    .freq-ask-Q-A a {
+        font-size: 14px;
+    }
+}
+
+/* ############################# Services Page ############################ */
+
+@media screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+
+    .filter button {
+        width: 10rem;
+        text-align: end;
+        background-color: var(--bg-color);
+    }
+
+    .cities button {
+        width: 10rem;
+        text-align: end;
+        background-color: var(--bg-color);
+    }
+
+    .newest button {
+        width: 10rem;
+        text-align: end;
+        background-color: var(--bg-color);
+    }
+}
+
+@media screen and (max-device-width: 375px) {
+    .header-content {
+        padding: 0px;
+    }
+
+    .checks {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .filter button {
+        font-size: 12px;
+        width: 7rem;
+        text-align: end;
+        background-color: var(--bg-color);
+    }
+
+    .cities button {
+        font-size: 12px;
+        width: 7rem;
+        text-align: end;
+        background-color: var(--bg-color);
+    }
+
+    .newest button {
+        font-size: 12px;
+        width: 7rem;
+        text-align: end;
+        background-color: var(--bg-color);
+    }
+}
+
+@media screen and (max-device-width: 325px) {
+    .filter_btn a {
+        margin: 0.5rem !important;
+
+    }
+}
+
+/* ########################### join our team ######################## */
+
+@media screen and (max-width: 992px) {
+    .form__check {
+        border-width: 1px 1px 1px 1px;
+        border-style: solid;
+        border-color: var(--color-11);
+        font-weight: 400;
+        font-size: 16px;
+        color: var(--color-2);
+    }
+
+    .form__check__11 {
+        border-width: 1px 1px 1px 1px;
+        border-style: solid;
+        border-color: var(--color-11);
+        font-weight: 400;
+        font-size: 16px;
+        color: var(--color-2);
+    }
+
+    .form__check__12 {
+        border-width: 1px 1px 1px 1px;
+        border-style: solid;
+        border-color: var(--color-11);
+        font-weight: 400;
+        font-size: 16px;
+        color: var(--color-2);
+    }
+
+    .form__check__13 {
+        border-width: 1px 1px 1px 1px;
+        border-style: solid;
+        border-color: var(--color-11);
+        font-weight: 400;
+        font-size: 16px;
+        color: var(--color-2);
+    }
+
+    .form__check__14 {
+        border-width: 1px 1px 1px 1px;
+        border-style: solid;
+        border-color: var(--color-11);
+        font-weight: 400;
+        font-size: 16px;
+        color: var(--color-2);
+    }
+
+    .form__check__15 {
+        border-width: 1px 1px 1px 1px;
+        border-style: solid;
+        border-color: var(--color-11);
+        font-weight: 400;
+        font-size: 16px;
+        color: var(--color-2);
+    }
+}
+
+@media only screen and (max-width:632px) and (min-width:320px) {
+    .jobText {
+        text-align: center;
+        font-size: 32px !important;
+        white-space: nowrap;
+        margin-top: 20%;
+    }
+}
