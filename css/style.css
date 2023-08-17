@@ -180,7 +180,39 @@ body {
 
 
 
+.bgSide {
+    /* background-color: var(--color-10); */
+    background: rgba(255, 255, 255, 0.01);
+    backdrop-filter: blur(1px);
+    border-radius: 10px;
+    z-index: 1;
+    bottom: -190px;
+    /* position: absolute; */
+    /* top: 50%; */
+    /* left: 50%; */
+    /* transform: translate(-50%, -50%); */
+    /* width: 80%; */
+    box-shadow: 0 0px 10px var(--color-10);
 
+
+
+}
+
+.t1 {
+    color: var(--color-10);
+}
+
+.btnSide {
+    border: 1px solid var(--color-10);
+    border-radius: 50%;
+    aspect-ratio: 1;
+}
+
+.btnSearch {
+    background-color: var(--color-10);
+    color: #fff;
+    margin-top: 1.8rem !important;
+}
 
 /* -------------------------- HEADER End -------------------------- */
 
@@ -690,32 +722,32 @@ a_tag a {
 .echosideimage {
     /* background-image: url(../images/cleaning-care/clean4.jpg); */
 
-     background-image: linear-gradient(rgba(25, 30, 31, 0.9),  rgba(32, 39, 41, 0.2)), url(../images/cleaning-care/clean4.jpg);
+    background-image: linear-gradient(rgba(25, 30, 31, 0.9), rgba(32, 39, 41, 0.2)), url(../images/cleaning-care/clean4.jpg);
     height: 100vh;
-    
+
     color: black !important;
     object-fit: cover;
     background-size: cover;
-    
+
     background-repeat: no-repeat;
-    
+
     position: relative;
-    
-        box-shadow: -1px 1px 12px #375559;
+
+    box-shadow: -1px 1px 12px #375559;
 }
 
-@media(max-width:768px)
-{
+@media(max-width:768px) {
     .echosideimage {
-    /* background-image: url(../images/cleaning-care/clean4.jpg); */
+        /* background-image: url(../images/cleaning-care/clean4.jpg); */
 
-     
-    height: 100%;
-    
- 
+
+        height: 100%;
+
+
+    }
 }
-}
-.sidebarimage{
+
+.sidebarimage {
     width: 100%;
     height: 80vh;
 }
@@ -730,14 +762,11 @@ a_tag a {
     height: 100%;
     background-color: rgba(17, 118, 158, 0.76);
     /* Adjust the alpha value to control the darkness */
-    /* z-index: 1; */
- 
- */
+/* z-index: 1; */
 
-
-  .egosideimage{
+*/ .egosideimage {
     /* background-image: url(../images/cleaning-care/clean5.jpeg) !important; */
-    
+
     /* height: 100vh; */
     /* position: absolute;
     right: 0;
@@ -749,14 +778,15 @@ a_tag a {
     background-size: cover !important;
     background-repeat: no-repeat !important; */
 }
-.egosideimage{
+
+.egosideimage {
     background-image: url(../images/cleaning-care//clean5.jpeg);
-     width: 100% !important;
-       /* height: 80vh !important; */
-       height: 100%;
-         object-fit: contain !important;
-         /* position: absolute; */
-     
+    width: 100% !important;
+    /* height: 80vh !important; */
+    height: 100%;
+    object-fit: contain !important;
+    /* position: absolute; */
+
 }
 
 
@@ -777,7 +807,8 @@ a_tag a {
     margin-top: -35rem;
     color: var(--color-4);
 }
-.cleaning_maincontant{
+
+.cleaning_maincontant {
     color: var(--color-4);
 }
 
@@ -1271,7 +1302,8 @@ hr {
 }
 
 .bg-image-text p {
-    color: rgba(255, 255, 255, 0.5);
+    /* color: rgba(255, 255, 255, 0.5); */
+    color: #fff;
     font-size: 1.2rem;
 }
 
