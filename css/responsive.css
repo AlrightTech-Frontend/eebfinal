@@ -548,6 +548,14 @@
         margin: 0.5rem !important;
 
     }
+
+  
+}
+@media(max-width:700px)
+{
+      .request__content {
+    margin-top: -6rem !important;
+}
 }
 
 /* ########################### join our team ######################## */
