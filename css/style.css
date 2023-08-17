@@ -214,6 +214,10 @@ body {
     margin-top: 1.8rem !important;
 }
 
+.Icons img {
+    width: 50px !important;
+}
+
 /* -------------------------- HEADER End -------------------------- */
 
 /* -------------------------- MAIN --------------------------  */
@@ -1059,6 +1063,8 @@ a_tag a {
     line-height: 37px;
     letter-spacing: 0.05em;
     color: var(--color-2);
+    /* jutify text */
+    text-align: justify;
 }
 
 /* row 1 left column row 1 */
@@ -1477,6 +1483,9 @@ hr {
     line-height: 37px;
     letter-spacing: 0.1em;
     color: var(--color-2);
+
+    /* text justify */
+    text-align: justify;
 }
 
 .bg1 {
