@@ -81,8 +81,12 @@ body {
     box-shadow: none !important;
 }
 
-.navbar-bg-black {
+/* .navbar-bg-black {
     background-color: rgba(21, 20, 20, 0.492);
+    width: 100%;
+} */
+.navbar-bg-black {
+    background-color: rgb(21 20 20 / 98%);
     width: 100%;
 }
 
@@ -850,7 +854,7 @@ a_tag a {
 .sectionClass {
     position: relative;
     display: block;
-    background-color: black ;
+    background-color: black;
     /* backdrop-filter: blur(10px); */
     margin-top: -9rem;
     box-shadow: -1px 1px 12px #375559;
@@ -1258,7 +1262,7 @@ hr {
 
 /* Add a CSS class for the black background */
 .navbar-bg-black {
-    background-color: rgba(31, 30, 30, 0.535);
+    background-color: rgb(21 20 20 / 98%);
 }
 
 /* Add a CSS class for the fade-in effect */
@@ -1668,10 +1672,10 @@ hr {
     box-shadow: none;
 }
 
-.form-control:focus {
-    color: var(--color-2);
+/* .form-control:focus {
+    color: var(--color-3);
     background-color: var(--color-6);
-}
+} */
 
 .subBtn {
     background: var(--color-10);
@@ -2344,8 +2348,8 @@ a_tag a {
 }
 
 .form-control:focus {
-    color: var(--color-2);
-    background-color: var(--color-6);
+    color: var(--color-6);
+    background-color: var(--color-3);
     border: 1px solid var(--color-4);
     outline: 0;
     box-shadow: none;
@@ -2411,4 +2415,42 @@ a_tag a {
     background: var(--color-10);
     color: var(--color-3);
     border: 1px solid var(--color-9) !important;
+}
+
+.bgservice {
+    background-color: #18BEEE;
+    width: fit-content !important;
+    border-radius: 5px;
+    color: #fff;
+}
+
+.nav-tabs {
+    border-bottom: none;
+}
+
+.nav-tabs .nav-item.show .nav-link,
+.nav-tabs .nav-link.active {
+    color: #fff;
+    background-color: #18BEEE;
+    border-color: #18BEEE;
+}
+
+.nav-tabs .nav-item.show .nav-link,
+.nav-tabs .nav-link {
+    border-color: #18BEEE;
+    color: #fff;
+}
+
+.tabCard {
+    background-color: var(--color-6);
+    border-radius: 10px;
+    padding: 25px;
+    box-shadow: -1px 1px 12px #375559;
+    text-decoration: none;
+    /* height: 320px; */
+}
+
+.btnQuote {
+    background-color: #18BEEE;
+    color: #fff;
 }

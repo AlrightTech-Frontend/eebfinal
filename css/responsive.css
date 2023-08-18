@@ -23,6 +23,8 @@
     .available_div {
         width: 75%;
     }
+
+
 }
 
 @media (min-width: 768px) and (max-width: 992px) {
@@ -549,13 +551,13 @@
 
     }
 
-  
+
 }
-@media(max-width:700px)
-{
-      .request__content {
-    margin-top: -6rem !important;
-}
+
+@media(max-width:700px) {
+    .request__content {
+        margin-top: -6rem !important;
+    }
 }
 
 /* ########################### join our team ######################## */
@@ -623,4 +625,29 @@
         white-space: nowrap;
         margin-top: 20%;
     }
+}
+
+
+@media (max-width:768px) {
+    .bg-image-mn-3 {
+        height: 300px;
+    }
+
+    .bg-image-text h1 {
+        font-size: 2rem;
+    }
+
+    .bg-image-text p {
+        font-size: 1rem;
+    }
+
+    .bg-image-mn-1 {
+        height: 250px;
+    }
+
+    .bg-image-mn-4 {
+        height: 280px;
+    }
+
+
 }

@@ -1,0 +1,336 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Favicon Links -->
+    <link rel="apple-touch-icon" sizes="180x180" href="images/favicon/android-chrome-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="images/favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- Font Awesome Link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Owl Carousel Link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+
+    <!-- Customized CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+
+    <!-- Website Title -->
+    <title>Services</title>
+</head>
+
+<body>
+    <!-- -------------------------- HEADER -------------------------- -->
+    <div class="container-fluid bg-image-mn-3  mb-5 p-0">
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg bg-body-tertiary nav__bar">
+            <div class="container-fluid">
+                <!-- Toggle Button -->
+                <button class="navbar-toggler navbar__toggler border border-2" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="">
+
+                        <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="-5 -7 24 24">
+                            <path fill="white"
+                                d="M1 0h5a1 1 0 1 1 0 2H1a1 1 0 1 1 0-2zm7 8h5a1 1 0 0 1 0 2H8a1 1 0 1 1 0-2zM1 4h12a1 1 0 0 1 0 2H1a1 1 0 1 1 0-2z" />
+                        </svg>
+                    </span>
+                </button>
+                <!-- Nav Items -->
+                <div class="collapse navbar-collapse pe-6" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto me-5 pt-0 pb-4 pe-6 mb-2 mb-lg-0 blog-list">
+                        <li class="nav-item mx-2 nav__item nav__item__border">
+                            <a class="nav-link nav__link text-uppercase fromcenter active" aria-current="page"
+                                href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item mx-2 nav__item nav__item__border">
+                            <a class="nav-link nav__link text-uppercase fromcenter" href="about.html">About Us</a>
+                        </li>
+                        <li class="nav-item mx-2 nav__item nav__item__border">
+                            <a class="nav-link nav__link text-uppercase fromcenter" href="services.html">Services</a>
+                        </li>
+
+                        <li class="nav-item mx-2 nav__item nav__item__border">
+                            <a class="nav-link nav__link text-uppercase fromcenter" href="joinTeam.html">Join Our
+                                Team</a>
+                        </li>
+                        <li class="nav-item mx-2 nav__item nav__item__border">
+                            <a class="nav-link nav__link text-uppercase fromcenter" href="blog.html">Blogs</a>
+                        </li>
+                        <li class="nav-item mx-2 nav__item nav__item__border">
+                            <a class="nav-link nav__link text-uppercase fromcenter" href="contact.html">Contact Us</a>
+                        </li>
+
+                        <!-- Request A Quote Button -->
+                        <li class="nav-item mx-2 nav__item">
+                            <a href="get-a-qoute.html"><button class="btn header__button py-3 text-uppercase">Request a
+                                    Quote</button></a>
+                        </li>
+                    </ul>
+                </div>
+                <script>
+                    // Get references to the necessary elements
+                    const togglerButton = document.querySelector(".navbar-toggler");
+                    const navbar = document.querySelector(".nav__bar");
+                    const navItems = document.querySelector(".navbar-nav");
+
+                    // Add event listener to the toggler button
+                    togglerButton.addEventListener("click", () => {
+                        // Toggle background color of the navbar
+                        navbar.classList.toggle("navbar-bg-black");
+
+                        // Toggle the fade-in effect for the nav items
+                        navItems.classList.toggle("fade-up");
+                    });
+                </script>
+            </div>
+        </nav>
+
+        <!-- background image -->
+        <div class="img-overlay">
+            <div class="bg-image-text text-center">
+                <h1 class="">Services Detail</h1>
+                <p>Premium cleaning solutions for homes and businesses.</p>
+
+            </div>
+
+
+        </div>
+    </div>
+    <!-- -------------------------- MAIN -------------------------- -->
+
+    <!-- ---------- Background picture end ---------- -->
+
+
+    <!-- ---------- Banner 3 Service Cards ---------- -->
+
+    <div class="container my-2 ">
+        <div class="row mb-2 pt-0 mt-0">
+            <div class="stars">
+                <i class="fas fa-star" style="color: yellow;"></i>
+                <i class="fas fa-star" style="color: yellow;"></i>
+                <i class="fas fa-star" style="color: yellow;"></i>
+                <i class="fas fa-star" style="color: yellow;"></i>
+                <i class="fas fa-star" style="color: yellow;"></i>
+                <small class="text-white">(5)</small>
+            </div>
+            <div class="p-3 my-2 bgservice mx-2">
+                COMMERCIAL CLEANING SERVICES
+            </div>
+
+
+        </div>
+        <div class="row my-2">
+
+            <div class="col-md-8">
+                <div class="row">
+                    <div class="col-md-12 col-lg-12 a_tag mb-4">
+                        <a href="#" class="gallery_card1  d-flex flex-column justify-content-center align-items-center">
+                            <div class="gallery_img">
+                                <img src="images/categories/business_facilities_2023-07-17_64b524efa0b98.jpg"
+                                    class="img-fluid" alt="">
+                            </div>
+
+                            <p class="pt-3 gallery_text">Business Facilities</p>
+                        </a>
+                    </div>
+                </div>
+                <ul class="nav nav-tabs" id="myTabs" role="tablist">
+                    <li class="nav-item me-2" role="presentation">
+                        <a class="nav-link active" id="home-tab" data-bs-toggle="tab" href="#home" role="tab"
+                            aria-controls="home" aria-selected="true">Over View</a>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <a class="nav-link" id="profile-tab" data-bs-toggle="tab" href="#profile" role="tab"
+                            aria-controls="profile" aria-selected="false">Reviews</a>
+                    </li>
+
+                </ul>
+                <div class="tab-content" id="myTabContent">
+                    <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                        <div class="tabCard my-3">
+                            <h3 class="text-white">Service Details
+                            </h3>
+                            <p class="text-white">EEB Cleaning Services is a company that provides professional house
+                                cleaning services, office cleaning, commercial cleaning, hoarding and junk cleaning
+                                service in New York¹. They are a family-owned business that strives to provide the
+                                highest level of quality, service and value to each and every customer. You can visit
+                                their website at https://eebcleaningservices.</p>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+                        <div class="tabCard my-3">
+                            <h3 class="text-white">No Reviews Available
+                            </h3>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="col-md-4 ">
+                <div class="">
+
+                    <h2 class="text-white">
+                        Request Qoute
+                    </h2>
+                    <button class="btn btnQuote w-100">Book Service</button>
+                    <div class="my-3 tabCard">
+                        <h4 class="text-white">Service Provider</h2>
+
+                            <p class="fs-5 text-white">
+                                Erica Benjamin
+                            </p>
+                            
+                            <div class="d-flex align-items-center">
+                               <span>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="#00E65B" class="bi bi-dot" viewBox="0 0 16 16">
+                                    <path d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3z"/>
+                                  </svg>
+                               </span>
+                               <p class="text-white mt-3"> Online</p>
+                            </div>
+                            
+                           
+                            <small class="text-muted">Member Since 2 months ago</small>
+                            <hr>
+
+                            <div class="my-2">
+                                <div class="">
+                                    <div class="d-flex align-items-center">
+                                        <span><i class="fas fa-envelope text-white"></i></span>
+                                        <small class="text-muted mx-2">user@gmail.com</small>
+                                    </div>
+                                    <div class="d-flex align-items-center mt-3">
+                                        <span><i class="fas fa-phone text-white"></i></span>
+                                        <small class="text-muted mx-2">+9230012344</small>
+                                    </div>
+                                </div>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+
+
+    <!-- -------------------------- FOOTER -------------------------- -->
+
+    <div class="footer__bg">
+        <div class="container">
+            <div class="row pt-5">
+                <!-- col -->
+                <div class="col-lg-4 col-md-12 col-sm-12 mb-lg-4 mb-sm-5 mb-5">
+                    <div class="footer__col">
+                        <h6 class="mb-3">About</h6>
+                        <p class=" mb-xl-5 mb-3">
+                            EEB Cleaning Services aim to establish trust among homeowners and professionals. As a result
+                            of our assistance, people
+                            are able to take care of their homes from top to bottom - as well as a wide range of small
+                            businesses are encouraged to
+                            grow.
+                        </p>
+                        <a class="website__logo" href="#"><img src="images/index-bn-1/Logo Transparency.png" alt=""></a>
+                    </div>
+                </div>
+                <!-- col -->
+                <div class="col-lg-1"></div>
+                <!-- col -->
+                <div class="col-lg-3 col-md-6 col-sm-12 mb-5">
+                    <div class="footer__col">
+                        <h6 class="mb-3">Services</h6>
+                        <div class="footer__col__img mb-5">
+                            <img src="images/footer/Group 69.png" alt="" />
+                        </div>
+                        <a class="footer__button py-3 px-3" href="get-a-qoute.html">GET A QUOTE</a>
+                    </div>
+                </div>
+                <!-- col -->
+                <div class="col-lg-1"></div>
+                <!-- col -->
+                <div class="col-lg-3 col-md-6 col-sm-12 mb-5">
+                    <div class="footer__col3">
+                        <h6 class="mb-3">Company</h6>
+                        <ul class="mb-4">
+                            <li><a class="footer__col__a" href="index.html">Home</a></li>
+                            <li><a href="about.html">About Us</a></li>
+                            <li><a href="services.html">Services</a></li>
+                            <li><a href="jointeam.html">Join Our Team</a></li>
+                            <li><a href="blog.html">Blogs</a></li>
+                            <li><a href="contact.html">Contact Us</a></li>
+                            <li><a href="get-a-qoute.html">Get a Quote</a></li>
+                        </ul>
+                        <div class="footer__social">
+                            <a href="https://www.facebook.com/thatshines2018/"><i
+                                    class="fa-brands fa-facebook-f"></i></a>
+                            <a href="https://www.instagram.com/eebcleaningservices/?hl=en"><i
+                                    class="fa-brands fa-twitter"></i></a>
+                            <a href="https://www.yelp.com/biz/eeb-cleaning-services-baldwin"><i
+                                    class="fa-brands fa-yelp"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr />
+            <!-- row 2 -->
+            <div class="row d-flex justify-content-center">
+                <div class="col-lg-8 col-12">
+                    <div class="footer__row__2">
+                        <ul>
+                            <li>
+                                <p>Copyright 1978 - 2023</p>
+                            </li>
+                            <div class=" d-none d-sm-block">|</div>
+                            <li>
+                                <a href="#">EEB Cleaning Services</a>
+                            </li>
+                            <div class=" d-none d-sm-block">|</div>
+                            <li>
+                                <p>All Right Reserved</p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- -------------------------- SCRIPTS -------------------------- -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous">
+
+        </script>
+
+    <script>
+        console.log("side")
+        let sideBtn = document.getElementById('btnSearch')
+        let sideFilter = document.getElementById('filSide')
+        let col8 = document.getElementById("col8")
+        sideBtn.onclick = () => {
+            console.log("inside")
+            sideFilter.classList.toggle('d-none')
+            col8.classList.toggle('col-md-8');
+            col8.classList.toggle("col-md-12")
+        }
+
+    </script>
+</body>
+
+</html>
