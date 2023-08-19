@@ -715,14 +715,16 @@
 
 }
 
-@media(max-width:768px)
+@media(max-width:380px)
 {
       .bg-image-text {
-        position: static;
-        left: px;
-        text-align: center;
-        transform: none;
-        padding-top: 20px;
-        
-    }
+    position:  relative;
+    margin-top: 60px;
+    /* top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); */
+}
+.verticalltset{
+    margin-top:120px ;
+}
 }
