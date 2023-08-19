@@ -633,6 +633,11 @@
         height: 300px;
     }
 
+    .bg-image-mn-2 {
+        height: 300px;
+        background-size: cover;
+    }
+
     .bg-image-text h1 {
         font-size: 2rem;
     }
@@ -649,5 +654,21 @@
         height: 280px;
     }
 
+    .bg-image-text {
+        left: 0;
+        transform: none;
+    }
+
+    .formInp {
+        width: 100%;
+    }
+
+    .btnSearch {
+        width: 100%;
+    }
+
+    .parallax-1 {
+        height: 80vh;
+    }
 
 }
