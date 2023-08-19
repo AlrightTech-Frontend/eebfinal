@@ -405,15 +405,16 @@
         color: var(--color-2);
         display: flex;
         flex-direction: column;
+        font-size: 12px !important;
     }
 
-    .footer__row__2 {
+    /* .footer__row__2 {
         justify-content: left;
-    }
+    } */
 
-    .footer__row__2 ul li p {
+    /* .footer__row__2 ul li p {
         margin-top: 12px !important;
-    }
+    } */
 
     .index__bg__img {
         top: -140px;
