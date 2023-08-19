@@ -139,7 +139,7 @@
 
     .location__input {
         width: 100%;
-        margin-top: 2rem;
+        margin-top: 1rem;
         border-radius: 20px;
     }
 
@@ -156,6 +156,8 @@
     .location__input {
         margin-right: 0;
     }
+
+
 
     /* Banner 5 Contact Us */
 
@@ -235,7 +237,7 @@
 
     .location__input {
         width: 100%;
-        margin-top: 2rem;
+        margin-top: 1rem;
         border-radius: 20px;
     }
 
@@ -338,7 +340,7 @@
 
     .location__input {
         width: 100%;
-        margin-top: 2rem;
+        margin-top: 1rem;
         border-radius: 20px;
     }
 
@@ -419,6 +421,19 @@
 }
 
 @media only screen and (max-width: 768px) {
+    .back_forword_btn{
+        display: flex;
+        justify-content: center !important;
+        margin-bottom: 20px;
+    }
+
+
+    .request__content {
+    position: static;
+    top: 0%;
+    left: 0%;
+    transform: translate(0%,0%);
+}
 
 
     .ourvissionsetting{
@@ -579,6 +594,17 @@
 }
 
 @media screen and (max-width: 992px) {
+     .carousel__img{
+        height: 400px !important;
+        object-position: top;
+        
+    }
+
+      .search__button{
+  right: 0px !important;
+  width: 100%;
+
+    }
 
 
     .form__check {
@@ -647,6 +673,7 @@
 
 
 @media (max-width:768px) {
+  
     .bg-image-mn-3 {
         height: 300px;
     }

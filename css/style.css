@@ -750,6 +750,9 @@ a_tag a {
 }
 
 @media(max-width:768px) {
+    .get_in_title{
+        text-align: center;
+    }
     .echosideimage {
         /* background-image: url(../images/cleaning-care/clean4.jpg); */
 
@@ -1077,6 +1080,7 @@ a_tag a {
     font-weight: 400;
     font-size: 20px;
     line-height: 40px !important;
+  
 }
 
 .get_in_text {
@@ -1712,7 +1716,7 @@ hr {
 
 .get_in_text {
     font-weight: 400;
-    font-size: 18px;
+    font-size: 16px;
     line-height: 37px;
     letter-spacing: 0.05em;
     color: var(--color-2);
