@@ -1614,7 +1614,7 @@ hr {
     z-index: 0;
 }
 
-.bg-image-mn-2::before {
+/* .bg-image-mn-2::before {
     content: "";
     position: absolute;
     top: 0;
@@ -1625,7 +1625,7 @@ hr {
     height: 100%;
     background: rgba(0, 0, 0, 0.4);
     color: var(--color-3);
-}
+} */
 
 .fos8 {
     font-weight: 400;
