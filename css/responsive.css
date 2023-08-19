@@ -88,9 +88,9 @@
         color: var(--color-4);
     }
 
-    .sectionClass {
+    /* .sectionClass {
         margin-top: -13rem;
-    }
+    } */
 
     .cleaning__care {
         margin-top: 4rem;
@@ -571,7 +571,16 @@
 
 /* ########################### join our team ######################## */
 
+@media(max-width:1150px)
+{
+        .sectionClass{
+    margin-top: 2rem;
+}
+}
+
 @media screen and (max-width: 992px) {
+
+
     .form__check {
         border-width: 1px 1px 1px 1px;
         border-style: solid;
