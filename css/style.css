@@ -971,6 +971,7 @@ a_tag a {
     background: url('../images/retuest-a-quote/quotebgd.png') repeat fixed 70%;
     background-size: cover;
     color: aliceblue;
+    position: relative;
 }
 
 .parallax-inner {
@@ -980,10 +981,16 @@ a_tag a {
 
 /* Parallex Content */
 
-.request__content {
+/* .request__content {
     margin-top: -12rem;
-}
+} */
 
+.request__content{
+    position: absolute;
+    top: 17%;
+    left: 50%;
+    transform: translate(-50%,50%);
+}
 .request_free_text {
     font-weight: 400;
     font-size: 24px;
