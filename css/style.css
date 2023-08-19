@@ -1713,6 +1713,7 @@ hr {
     display: flex;
     align-items: center;
     padding: 15px;
+    height: 110px;
 }
 
 .card___inner a {
