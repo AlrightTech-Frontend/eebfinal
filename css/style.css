@@ -1088,6 +1088,7 @@ a_tag a {
     color: var(--color-3);
     background-color: var(--color-10);
     cursor: pointer;
+    height: 110px;
 }
 
 .communicat_with_us a:hover {
@@ -1101,7 +1102,7 @@ a_tag a {
 }
 
 .icon_styling img {
-    width: 85%;
+    width: 40px;
 }
 
 .contact_us_card {
@@ -1109,7 +1110,7 @@ a_tag a {
     border-radius: 10px;
     display: flex;
     align-items: center;
-    padding: 15px;
+    padding: 10px;
 }
 
 .contact_card_title {
@@ -1729,7 +1730,7 @@ hr {
 }
 
 .icon_styling img {
-    width: 85%;
+    width: 40px;
 }
 
 .contact_card_title {
@@ -2455,6 +2456,10 @@ a_tag a {
     color: #fff;
 }
 
-.available_div_content {
+.available_div_content p{
+    font-size: 20px;
+}
+
+.available_div_content a{
     font-size: 18px;
 }
