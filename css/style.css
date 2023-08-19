@@ -988,11 +988,13 @@ a_tag a {
 .parallax-1 {
     height: 50vh;
     /* background: url('../images/retuest-a-quote/quotebgd.png') repeat fixed 70%; */
-    background-size: cover;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/retuest-a-quote/quetbgimg1.jpeg')  repeat fixed 100%;;
+    /* background-size: 100%; */
     color: aliceblue;
     position: relative;
-    
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/retuest-a-quote/quetbgimg.jpg')  repeat fixed 70%;;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    background-position: 50% ,32%;
 }
 
 .parallax-inner {
