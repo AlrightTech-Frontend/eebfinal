@@ -699,10 +699,7 @@
         height: 280px;
     }
 
-    .bg-image-text {
-        left: 34px;
-        transform: none;
-    }
+  
 
     .formInp {
         width: 100%;
@@ -716,4 +713,12 @@
         height: 100%;
     }
 
+}
+
+@media(max-width:350px)
+{
+      .bg-image-text {
+        left: 34px;
+        transform: none;
+    }
 }
