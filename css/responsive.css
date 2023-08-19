@@ -594,6 +594,9 @@
 }
 
 @media screen and (max-width: 992px) {
+     .maternavbar{
+    background-color: black !important;
+ }
      .carousel__img{
         height: 400px !important;
         object-position: top;
@@ -732,6 +735,6 @@
 
 }
 
- 
+
  
 }
