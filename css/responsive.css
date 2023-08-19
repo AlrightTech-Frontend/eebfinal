@@ -715,10 +715,14 @@
 
 }
 
-@media(max-width:380px)
+@media(max-width:768px)
 {
       .bg-image-text {
-        left: 20px;
+        position: static;
+        left: px;
+        text-align: center;
         transform: none;
+        padding-top: 20px;
+        
     }
 }
