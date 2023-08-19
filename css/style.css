@@ -750,6 +750,9 @@ a_tag a {
 }
 
 @media(max-width:768px) {
+    .subBtn{
+        width: 100%;
+    }
     .get_in_title{
         text-align: center;
     }

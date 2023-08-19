@@ -718,13 +718,16 @@
 @media(max-width:380px)
 {
       .bg-image-text {
-    position:  relative;
+        
+    position:  absolute;
     margin-top: 60px;
-    /* top: 50%;
+
+    top: 30%;
     left: 50%;
-    transform: translate(-50%, -50%); */
+    transform: translate(-50%, -50%);
+
+      margin-top:120px ;
+    width: 100%;
 }
-.verticalltset{
-    margin-top:120px ;
-}
+ 
 }
