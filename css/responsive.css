@@ -595,7 +595,8 @@
 
 @media screen and (max-width: 992px) {
      .maternavbar{
-    background-color: black !important;
+   background-color: rgb(21 20 20 / 98%);
+    padding-left: 10px;
  }
      .carousel__img{
         height: 400px !important;
