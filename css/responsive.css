@@ -728,6 +728,17 @@
 
       margin-top:120px ;
     width: 100%;
+
+
+}
+
+.parallax-1 {
+    /* height: 100%; */
+    /* background: url('../images/retuest-a-quote/quotebgd.png') repeat fixed 70%; */
+    background-size: contain;
+    background-repeat: no-repeat;
+    
+   
 }
  
 }
