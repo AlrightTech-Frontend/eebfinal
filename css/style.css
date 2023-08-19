@@ -2471,3 +2471,12 @@ a_tag a {
 .available_div_content a{
     font-size: 18px;
 }
+
+
+.aboutcontent{
+    padding-left: 40px;
+}
+.ourvissionsetting{
+     padding-top: 100px !important;
+    padding-bottom: 100px !important;
+}
