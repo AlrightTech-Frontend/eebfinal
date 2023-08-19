@@ -422,6 +422,9 @@
 }
 
 @media only screen and (max-width: 768px) {
+    .viewJob{
+        width: 100%;
+    }
     .back_forword_btn{
         display: flex;
         justify-content: center !important;
