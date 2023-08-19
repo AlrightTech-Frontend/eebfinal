@@ -2454,3 +2454,7 @@ a_tag a {
     background-color: #18BEEE;
     color: #fff;
 }
+
+.available_div_content {
+    font-size: 18px;
+}
