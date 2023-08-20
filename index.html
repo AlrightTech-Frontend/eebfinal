@@ -56,6 +56,9 @@
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/responsive.css" />
 
+
+
+    <link rel="stylesheet" href="./css/testimonial.css">
     <!-- Website Title -->
     <title>EEB | Cleaning Services LLC</title>
   </head>
@@ -724,13 +727,14 @@
 
     <div class="container-fluid">
       <div class="ecomain">
+        
         <div class=" ">
           <div class=""></div>
 
           <div class="">
             <div class="row p-0 m-0 align-i position-relative">
-              <div class="col-lg-7 col-md-12 p-2 m-0 echosideimage p-md-5 py-5 pt-md-0">
-                <div class="cleaning_maincontant">
+              <div class="col-lg-7 col-md-12 p-2 m-0 echosideimage p-md-5  py-5 pt-md-0">
+                <div class="cleaning_maincontant pt-5">
                   <h2>Cleaning with Care and Eco-Friendly Products</h2>
                   <p>
                     We're known for one thing everywhere we go: excellent
@@ -967,7 +971,99 @@
       </div>
     </div>
     
-        <!-- -------------------------- FOOTER -------------------------- -->
+
+    <!-- Testimonial  -->
+
+
+    <!-- Testimonial  -->
+<!------------Design By Pradeep Singh Tomar----------->
+<div class="container">
+  
+  <section id="testim" class="testim">
+    <h1 class="text-center text-white">Testimonials</h1>
+    <div class="testim-cover">
+      <div class="wrap">
+
+        <span id="right-arrow" class="arrow right fa ">
+          <i class="fa-solid fa-chevron-right text-white"></i>
+          
+        </span>
+        <span id="left-arrow" class="arrow left "><i class="fa-solid fa-chevron-left text-white"></i></span>
+        <ul id="testim-dots" class="dots">
+          <li class="dot active"></li><!--
+                        -->
+          <li class="dot"></li><!--
+                        -->
+          <li class="dot"></li><!--
+                        -->
+          <li class="dot"></li><!--
+                        -->
+          <li class="dot"></li>
+        </ul>
+        <div id="testim-content" class="cont">
+
+          <div class="active" >
+            <div class="img"><img
+                src="./images/index-bn-1/tesmonial1.jpg"
+                alt=""></div>
+            <h2>Danielle Efres</h2>
+          <p>
+            Michelle Gunter
+            • Interior &amp; exterior window cleaning, Glass &amp; mirror cleaning, Standard cleaning, Deep clean
+          </p>
+          </div>
+
+          <div>
+            <div class="img"><img
+                src="./images//index-bn-1//test2.jpg"
+                alt=""></div>
+            <h2>Danielle Efres</h2>
+            <p>"I am the owner of Danielle Efres real estate and I often use Erica to clean my listings before they hit the market.
+              She is absolutely wonderful! I have never seen anyone work so hard, she is on time, professional and extremely
+              meticulous. My clients are always happy with her services each and every time!! If you are looking for someone that
+              gets the job done look no further! I highly recommend Erica to anyone looking for a great cleaning company."</p>
+          </div>
+
+          <div>
+            <div class="img"><img src="./images/index-bn-1/test3.jpg"
+                alt=""></div>
+            <h2>LisaTax Services
+            • Interior &amp; exterior window cleaning, Deep clean</h2>
+            <p>"Erica's Cleaning company is a blessings. My house was sparkling. Looking brand new. Smelling fresh and clean. One in
+              a million cleaning company. She really cleans and leaves your place beautiful. Thank you Erica"</p>
+          </div>
+
+          <div>
+            <div class="img"><img
+                src="./images/index-bn-1/test4.jpg" alt="">
+            </div>
+            <h2>Nigel Henry
+            • Standard cleaning, Deep clean</h2>
+          <p>"OMG! Where do I begin. Erica is blessed by the cleaning Gods. I have struggled to upkeep my home and from the moment
+            I met Erica and she blessed my home it was truly a burden off my shoulders. Not only she cleans but she organized my
+            home by placing items in its appropriate place. I never knew I could have so much counter space in my kitchen. Her
+            warm and friendly personality had me at ease. Trust and believe my place was a mess and she just came in and saved the
+            day. She has definitely made an impact and I’m excited to continue working with her."</p>
+          </div>
+
+          <div>
+            <div class="img"><img
+                src="./images/index-bn-1/test5.jpg"
+                alt=""></div>
+            <h2 class="text-white">Spencer Guillomaitre
+            • Moving-related cleaning, Deep clean</h2>
+            <p>"What a wonderful lady Erica is! She goes above and beyond and take great pride in her work. She made my house looked
+            and smelled good. EEB cleaning services is cleaning done right, fair and professional. I will recommend her to family
+            and friends."
+            </p>
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+  </section>
+</div>
         
         <div class="footer__bg px-2">
           <div class="container">
@@ -1066,5 +1162,123 @@
       integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
       crossorigin="anonymous"
     ></script>
+
+
+    <!-- Testimonial  -->
+
+      <script src="https://use.fontawesome.com/1744f3f671.js"></script>
+      
+      
+      <script>
+        // vars
+        'use strict'
+        var testim = document.getElementById("testim"),
+          testimDots = Array.prototype.slice.call(document.getElementById("testim-dots").children),
+          testimContent = Array.prototype.slice.call(document.getElementById("testim-content").children),
+          testimLeftArrow = document.getElementById("left-arrow"),
+          testimRightArrow = document.getElementById("right-arrow"),
+          testimSpeed = 4500,
+          currentSlide = 0,
+          currentActive = 0,
+          testimTimer,
+          touchStartPos,
+          touchEndPos,
+          touchPosDiff,
+          ignoreTouch = 30;
+        ;
+
+        window.onload = function () {
+
+          // Testim Script
+          function playSlide(slide) {
+            for (var k = 0; k < testimDots.length; k++) {
+              testimContent[k].classList.remove("active");
+              testimContent[k].classList.remove("inactive");
+              testimDots[k].classList.remove("active");
+            }
+
+            if (slide < 0) {
+              slide = currentSlide = testimContent.length - 1;
+            }
+
+            if (slide > testimContent.length - 1) {
+              slide = currentSlide = 0;
+            }
+
+            if (currentActive != currentSlide) {
+              testimContent[currentActive].classList.add("inactive");
+            }
+            testimContent[slide].classList.add("active");
+            testimDots[slide].classList.add("active");
+
+            currentActive = currentSlide;
+
+            clearTimeout(testimTimer);
+            testimTimer = setTimeout(function () {
+              playSlide(currentSlide += 1);
+            }, testimSpeed)
+          }
+
+          testimLeftArrow.addEventListener("click", function () {
+            playSlide(currentSlide -= 1);
+          })
+
+          testimRightArrow.addEventListener("click", function () {
+            playSlide(currentSlide += 1);
+          })
+
+          for (var l = 0; l < testimDots.length; l++) {
+            testimDots[l].addEventListener("click", function () {
+              playSlide(currentSlide = testimDots.indexOf(this));
+            })
+          }
+
+          playSlide(currentSlide);
+
+          // keyboard shortcuts
+          document.addEventListener("keyup", function (e) {
+            switch (e.keyCode) {
+              case 37:
+                testimLeftArrow.click();
+                break;
+
+              case 39:
+                testimRightArrow.click();
+                break;
+
+              case 39:
+                testimRightArrow.click();
+                break;
+
+              default:
+                break;
+            }
+          })
+
+          testim.addEventListener("touchstart", function (e) {
+            touchStartPos = e.changedTouches[0].clientX;
+          })
+
+          testim.addEventListener("touchend", function (e) {
+            touchEndPos = e.changedTouches[0].clientX;
+
+            touchPosDiff = touchStartPos - touchEndPos;
+
+            console.log(touchPosDiff);
+            console.log(touchStartPos);
+            console.log(touchEndPos);
+
+
+            if (touchPosDiff > 0 + ignoreTouch) {
+              testimLeftArrow.click();
+            } else if (touchPosDiff < 0 - ignoreTouch) {
+              testimRightArrow.click();
+            } else {
+              return;
+            }
+
+          })
+        }
+      </script>
   </body>
 </html>
